@@ -1,32 +1,35 @@
 {
-  "name": "Test::Differences",
-  "description": "Test and show structural diff between got and wanted",
-  "version": "1.0.0",
-  "perl": "6.d",
-  "meta-version": "1",
+  "auth": "github:rbt",
   "authors": [
     "Rod Taylor <rbt@cpan.org>"
   ],
-  "auth": "github:rbt",
+  "build-depends": [
+  ],
   "depends": [
     "Data::Dump",
     "Text::Diff"
   ],
-  "build-depends": [],
-  "test-depends": [],
+  "description": "Test and show structural diff between got and wanted",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Test::Differences",
+  "perl": "6.d",
   "provides": {
     "Test::Differences": "lib/Test/Differences.pm6"
   },
-  "resources": [],
+  "resources": [
+  ],
+  "source-url": "git://github.com/rbt/raku-Test-Differences.git",
   "support": {
     "bugtracker": "https://github.com/rbt/raku-Test-Differences/issues",
     "source": "https://github.com/rbt/raku-Test-Differences.git"
   },
-  "license": "Artistic-2.0",
   "tags": [
     "CPAN5",
     "Diff",
     "Test"
   ],
-  "source-url": "git://github.com/rbt/raku-Test-Differences.git"
+  "test-depends": [
+  ],
+  "version": "1.0.0"
 }
