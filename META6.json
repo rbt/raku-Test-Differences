@@ -1,7 +1,7 @@
 {
-  "auth": "github:rbt",
+  "auth": "zef:rbt",
   "authors": [
-    "Rod Taylor <rbt@cpan.org>"
+    "Rod Taylor <raku@rbt.ca>"
   ],
   "build-depends": [
   ],
@@ -13,10 +13,10 @@
   "license": "Artistic-2.0",
   "meta-version": "1",
   "name": "Test::Differences",
-  "perl": "6.d",
   "provides": {
     "Test::Differences": "lib/Test/Differences.pm6"
   },
+  "raku": null,
   "resources": [
   ],
   "source-url": "git://github.com/rbt/raku-Test-Differences.git",
@@ -31,5 +31,5 @@
   ],
   "test-depends": [
   ],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
