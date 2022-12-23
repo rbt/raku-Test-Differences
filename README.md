@@ -9,7 +9,7 @@ diagnostics. This is helpful for spotting minor changes over a large dataset.
    use Test::Differences;
 
    eq_or_diff $got,  "a\nb\nc\n",   "testing strings";
-   eq_or_diff @got, [{foo => <a b c>}, 1, Nil], "testing compex structure";
+   eq_or_diff @got, [{foo => <a b c>}, 1, Nil], "testing complex structure";
 ```
 
 ## DESCRIPTION
